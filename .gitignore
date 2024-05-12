@@ -1,11 +1,23 @@
-/civicrm.config.php.standalone
-/data/
-!/data/README.md
+
+# composer packages
 /vendor/
-/web/assets/
-/web/upload/
-/web/index.php
-/web/.htaccess
+
+# site data
+/ext
+/public
+/private
+!/private/README.md
+/settings
+
+# scaffolding
+/.htaccess
+/index.php
+/civicrm.standalone.php
+
+# civicrm asset publisher
+!/public/assets/civicrm/core/README.md
+
+/composer.lock
 
 .idea
 *~
