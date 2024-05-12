@@ -12,7 +12,6 @@
 # scaffolding
 /.htaccess
 /index.php
-/civicrm.standalone.php
 
 # civicrm asset publisher
 !/public/assets/civicrm/core/README.md
