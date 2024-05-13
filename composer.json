@@ -13,6 +13,7 @@
         "civicrm/civicrm-asset-plugin": "~1.1"
     },
     "config": {
+       "github-protocols": ["https"],
         "preferred-install": "source",
         "allow-plugins": {
             "civicrm/civicrm-asset-plugin": true,
