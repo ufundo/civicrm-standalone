@@ -1,12 +1,19 @@
 {
+  "repositories": [
+      {
+          "type": "git",
+          "url": "https://github.com/ufundo/civicrm-core.git"
+      }
+    ],
     "require": {
         "php": "~7.4 || ~8",
         "cweagans/composer-patches": ">=1.7",
-        "civicrm/civicrm-core": "dev-master",
+        "civicrm/civicrm-core": "dev-standalone-directory-structure-tokenised",
         "civicrm/civicrm-packages": "dev-master",
         "civicrm/civicrm-asset-plugin": "~1.1"
     },
     "config": {
+        "github-protocols": ["https"],
         "preferred-install": "source",
         "allow-plugins": {
             "civicrm/civicrm-asset-plugin": true,
